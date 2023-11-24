@@ -15,11 +15,26 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+@media (max-width:600px){
+  #left_div{
+    display: none;
+  }
+  #middle_div{
+    display:none;
+  }
+}
+
 
 #nav {
   background-image: url("/landing.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
+}
+#mid_div{
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
 }
 
